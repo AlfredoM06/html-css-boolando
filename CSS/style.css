@@ -5,3 +5,22 @@
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+img {
+    width: 275px;
+    height: 375px;
+}
+
