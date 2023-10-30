@@ -14,9 +14,16 @@ main {
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    
+    justify-content:center;
+    gap: 20px;
+}
+
+.box {
+    text-align: start;
+    font-size: 9px;
+    border-width: 2px;
+    border-style: groove;
+    margin-top: 0;
 }
 
 img {
@@ -24,3 +31,14 @@ img {
     height: 375px;
 }
 
+.tc {
+    color: red;
+}
+
+.ta {
+    text-align: center;
+}
+
+.mb {
+    margin-bottom: 30px;
+}
